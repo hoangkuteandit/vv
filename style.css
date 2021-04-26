@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tongthe{
+    width: 1900px;
+    height: 3950px;
+    
+}
+.header{
+    width: 1900px;
+    height: 60px;
+    background: #a10000;
+}
+.menu{
+    width: 1900px;
+    height: 40px;
+    background: #7a0000;
+  
+}
+.tintuc{
+    width: 1200px;
+    height: 3590px;
+    margin: 0px auto;
+}
+.logo{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    
+    border-top: 1px solid rgb(236, 226, 226);
+    
+}
+.tintonghop{
+    width: 900px;
+    height: 3550px;
+    
+    float: left;
+}
+.tinngoaile{
+    width: 280px;
+    height: 3550px;
+   
+    float: right;
+    margin-left: 20px;
+}
+.phan1{
+    width: 900px;
+    height: 1050px;
+    
+}
+.phan2{
+    width: 900px;
+    height: 2500px;
+   
+    
+}
+.tinnong{
+    width: 280px;
+    height: 1050px;
+   
+    float: left;
+    margin-right: 20px;
+    
+    
+}
+.tinchu{
+    width: 600px;
+    height: 1050px;
+    background: white;
+    margin-left: 300px;
+    
+}
+.ket{
+    width: 1900px;
+    height: 260px;
+    background: grey;
+    
+}
+.header img{
+    height: 50px;
+    margin-right: -130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 330px;
+}
+.thumuc{
+    margin-left: 330px;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+.thumuc > ul{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.thumuc > ul > li{
+    float: left;
+    list-style: none;
+}
+.thumuc > ul > li > a{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: wheat;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid white;
+}
+.thumuc > ul > li > a:hover{
+    background: rgb(0, 92, 128);
+    color: black;
+    transition: ease-in 0.40s;
+    -moz-transition: ease-in 0.40s;
+    -webkit-transition: ease-in 0.40s;
+}
+.upthumuc li a:hover{
+    background: rgb(0, 92, 128);
+    color: black;
+    transition: ease-in 0.40s;
+    -moz-transition: ease-in 0.40s;
+    -webkit-transition: ease-in 0.40s;
+}
+.upthumuc{
+    width: 142px;
+    min-height: 210px;
+    background: #7a0000;
+    display: none;
+    position: absolute;
+}
+.upthumuc li{
+    list-style: none;
+}
+.upthumuc li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    line-height: 50px;
+    text-indent: 15px;
+}
+.thumuc  li:hover .upthumuc{
+    display: block;
+}
+.seach{
+    float: right;
+    margin-right: 335px;
+    line-height: 40px;
+    
+}
+input[name="seach"]{
+    width: 300px;
+}
+
+
+.logo img{
+    height: 30px;
+   padding: 0px 33px 0px 33px;
+}
+.tinnong ul li{
+    list-style: none;
+   border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    
+    font-size: 11px;
+    margin-top: 3px;
+   
+}
+
+.tinnong ul h1{
+    
+    color: red;
+    animation: doimauchu ease 3s infinite;
+    border-top: 3px solid red;
+    margin-bottom: 2px;
+    font-size: 20px;
+    
+  
+}
+@keyframes doimauchu {
+    from {color: limegreen;}
+    to {color: red;}
+   
+   }
+.tinnong ul li h2{
+    margin-left: 10px;
+    
+}
+.x ul li{
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+  
+    margin-bottom: 2px;
+
+}
+.x ul li img{
+    float: left;
+    width: 220px;
+    height: 130px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    
+}
+.x ul li h2{
+    font-size: 20px;
+    margin-left: 230px;
+    
+}
+.x ul li h5{
+    font-size: 15px;
+    margin-left: 235px;
+    margin-top: 5px;
+    color: #666;
+}
+.v ul li{
+    list-style: none;
+    
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-top: 1px solid gray;
+  margin-bottom: 2px;
+    
+}
+.v ul li img{
+    width: 594px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.v ul li h1{
+    font-size: 23px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.v ul li h5{
+    font-size: 15px;
+    color: #666;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.phan2 ul {
+    list-style: none;
+}
+.phan2 ul h1{
+    color: red;
+    animation: doimauchu1 ease 3s infinite;
+    border-top: 3px solid red;
+    margin-bottom: 2px;
+    font-size: 20px;
+    
+    
+  
+
+}
+@keyframes doimauchu1 {
+    from {color: limegreen;}
+    to {color: red;}
+   
+   }
+.tinmoinhat{
+    width: 450px;
+    height: 430px;
+   
+    float: left;
+    margin-top: 10px;
+}
+.y{
+    width: 430px;
+    height: 430px;
+  
+    float: right;
+    margin-top: 10px;
+}
+.tinmoinhat ul li{
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+
+}
+.tinmoinhat ul li img{
+    width: 444px;
+    height: 300px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.tinmoinhat ul li h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 21px;
+    margin-top: 5px;
+}
+.tinmoinhat ul li h5{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.y ul li{
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 1px solid gray;
+  margin-bottom: 3px;
+}
+.y ul li img{
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+.y ul li h2{
+    margin-left: 160px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.one {
+    width: 900px;
+    height: 500px;
+  
+}
+.tow{
+    width: 900px;
+    height: 500px;
+    
+}
+.there{
+    width: 900px;
+    height: 500px;
+}
+.four{
+    width: 900px;
+    height: 500px;
+}
+.five{
+    width: 900px;
+    height: 500px;
+}
+.tinngoaile ul h1{
+    color: red;
+    animation: doimauchu1 ease 3s infinite;
+    border-top: 3px solid red;
+    margin-bottom: 2px;
+    font-size: 20px;
+    
+}
+@keyframes doimauchu1 {
+    from {color: limegreen;}
+    to {color: red;}
+}
+.nhat{
+    height: 1230px;
+    
+}
+.tam ul {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    list-style: none;
+}
+.tam ul li img{
+    width: 273px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+
+}
+.tam ul li h2{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.tu ul{
+    list-style: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-top:3px ;
+}
+.tu ul img{
+    width: 273px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    
+}
+.tu ul li h2{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.ngu ul{
+    list-style: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-top:3px ;
+}
+.ngu ul img{
+    width: 273px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    
+}
+.ngu ul li h2{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.luc ul{
+    list-style: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-top:3px ;
+}
+.luc ul img{
+    width: 273px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    
+}
+.luc ul li h2{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.that ul{
+    list-style: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-top:3px ;
+}
+.that ul img{
+    width: 273px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    
+}
+.that ul li h2{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.nhi{
+    height: 1230px;
+}
+.bat{
+    height: 1090px;
+    
+}
+.ket{
+    border-top: 3px solid red;
+    color: wheat;
+    
+}
+.kettong{
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+.mot{
+    width: 400px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-right: 2px solid wheat;
+    float: left;
+    
+}
+.mot img{
+    width: 200px;
+}
+.mot p{
+    margin-top: 10px;
+}
+.hai  {
+    width: 350px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+    border-right: 2px solid wheat;
+}
+.hai h1{
+    font-size: 20px;
+    
+}
+.diachi img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.diachi{
+    margin-top: 20px;
+}
+.diachi p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.dienthoai{
+    margin-top: 10px;
+}
+.dienthoai img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.dienthoai p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.fb{
+    margin-top: 10px;
+}
+.fb p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.fb img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.email{
+    margin-top: 10px;
+}
+.email img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.email p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.thapcam{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.thapcam img{
+    width: 20px;
+    height: 20px;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid wheat;
+    
+}
+.ba{
+    margin-top: 20px;
+    float: left;
+    width: 360px;
+}
+.ba h1{
+    font-size: 18px;
+
+}
+.chplay{
+    float: left;
+   
+}
+.chplay img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.chplay p{
+    margin-left: 65px;
+}
+
+.appstore{
+   
+    float: left;
+} 
+
+.appstore img{
+    width: 100px;
+    height: 100px;
+    margin-left:30px ;
+    margin-top: 20px;
+    
+}
+.appstore p{
+    margin-left: 40px;
+}

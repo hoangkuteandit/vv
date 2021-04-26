@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tongthe{
+    width: 1900px;
+    height: 1980px;
+    
+}
+.header{
+    width: 1900px;
+    height: 60px;
+    background: #a10000;
+}
+.menu{
+    width: 1900px;
+    height: 40px;
+    background: #7a0000;
+  
+}
+.tintuc{
+    width: 1200px;
+    height: 1620px;
+    margin: 0px auto;
+}
+.tinchinh{
+    width: 1200px;
+    height: 50px;
+    background: grey;
+    margin-top: 10px;
+}
+.tinchinh p{
+    line-height: 50px;
+    font-size: 26px;
+    margin-left: 10px;
+}
+.hihi  {
+    height: 1030px;
+   
+}
+.haha{
+    height: 550px;
+    
+}
+
+
+
+.tinnong{
+    width: 280px;
+    height: 1550px;
+   
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+    
+}
+
+    
+
+.tinchu{
+    width: 900px;
+    height: 1550px;
+    float: left;
+    margin-top: 10px;
+}
+.ket{
+    width: 1900px;
+    height: 260px;
+    background: grey;
+    
+}
+.header img{
+    height: 50px;
+    margin-right: -130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+}
+.thumuc{
+    margin-left: 350px;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+.thumuc > ul{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.thumuc > ul > li{
+    float: left;
+    list-style: none;
+}
+.thumuc > ul > li > a{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: wheat;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid white;
+}
+.thumuc > ul > li > a:hover{
+    background: rgb(0, 92, 128);
+    color: black;
+    transition: ease-in 0.40s;
+    -moz-transition: ease-in 0.40s;
+    -webkit-transition: ease-in 0.40s;
+}
+.upthumuc li a:hover{
+    background: rgb(0, 92, 128);
+    color: black;
+    transition: ease-in 0.40s;
+    -moz-transition: ease-in 0.40s;
+    -webkit-transition: ease-in 0.40s;
+}
+.upthumuc{
+    width: 142px;
+    min-height: 210px;
+    background: #7a0000;
+    display: none;
+    position: absolute;
+}
+.upthumuc li{
+    list-style: none;
+}
+.upthumuc li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    line-height: 50px;
+    text-indent: 15px;
+}
+.thumuc  li:hover .upthumuc{
+    display: block;
+}
+.seach{
+    float: right;
+    margin-right: 335px;
+    line-height: 40px;
+    
+}
+input[name="seach"]{
+    width: 300px;
+}
+
+
+
+
+.tinnong ul li{
+    list-style: none;
+   border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    
+    font-size: 11px;
+    margin-top: 3px;
+   
+}
+
+.tinnong ul h1{
+    
+    color: red;
+    animation: doimauchu ease 3s infinite;
+    border-top: 3px solid red;
+    margin-bottom: 2px;
+    font-size: 20px;
+    
+  
+}
+@keyframes doimauchu {
+    from {color: limegreen;}
+    to {color: red;}
+   
+   }
+.tinnong ul li h2{
+    margin-left: 10px;
+    
+}
+.x ul li{
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+  
+    margin-bottom: 2px;
+
+}
+.x ul li img{
+    float: left;
+    width: 300px;
+    height: 160px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+.x ul li h2{
+    font-size: 21px;
+    margin-left: 330px;
+    margin-top: 10px;
+    
+    
+}
+.x ul li h5{
+    font-size: 16px;
+    margin-left: 330px;
+    margin-top: 10px;
+    color: #666;
+}
+.v ul li{
+    list-style: none;
+    
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-top: 1px solid gray;
+  margin-bottom: 2px;
+    
+}
+.v ul li img{
+    width: 888px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.v ul li h1{
+    font-size: 25px ;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.v ul li h5{
+    font-size: 18px;
+    color: #666;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ket{
+    border-top: 3px solid red;
+    color: wheat;
+    
+}
+.kettong{
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+.mot{
+    width: 400px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-right: 2px solid wheat;
+    float: left;
+    
+}
+.mot img{
+    width: 200px;
+}
+.mot p{
+    margin-top: 10px;
+}
+.hai  {
+    width: 350px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+    border-right: 2px solid wheat;
+}
+.hai h1{
+    font-size: 20px;
+    
+}
+.diachi img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.diachi{
+    margin-top: 20px;
+}
+.diachi p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.dienthoai{
+    margin-top: 10px;
+}
+.dienthoai img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.dienthoai p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.fb{
+    margin-top: 10px;
+}
+.fb p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.fb img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.email{
+    margin-top: 10px;
+}
+.email img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.email p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.thapcam{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.thapcam img{
+    width: 20px;
+    height: 20px;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid wheat;
+    
+}
+.ba{
+    margin-top: 20px;
+    float: left;
+    width: 360px;
+}
+.ba h1{
+    font-size: 18px;
+
+}
+.chplay{
+    float: left;
+   
+}
+.chplay img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    
+}
+.chplay p{
+    margin-left: 65px;
+}
+
+.appstore{
+   
+    float: left;
+} 
+
+.appstore img{
+    width: 100px;
+    height: 100px;
+    margin-left:30px ;
+    
+}
+.appstore p{
+    margin-left: 40px;
+}
